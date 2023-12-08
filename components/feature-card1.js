@@ -35,6 +35,7 @@ const FeatureCard1 = (props) => {
           .feature-card1-image {
             width: 96px;
             height: 96px;
+            align-self: flex-start;
             object-fit: cover;
             border-radius: 4px;
           }

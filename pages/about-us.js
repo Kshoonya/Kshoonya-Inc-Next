@@ -2068,9 +2068,6 @@ const AboutUs = (props) => {
               border-color: var(--dl-color-gray-900);
               border-width: 1px;
             }
-            .about-us-text41 {
-              font-weight: 700;
-            }
             .about-us-text42 {
               font-weight: 700;
             }

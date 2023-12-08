@@ -83,11 +83,11 @@ const Jobs = (props) => {
             </div>
             <div className="jobs-mid">
               <span className="jobs-text">About</span>
-              <span className="jobs-text1">Products</span>
-              <span className="jobs-text2">Pricing</span>
-              <span className="jobs-text3">Blog</span>
-              <span className="jobs-text4">Jobs</span>
-              <span className="jobs-text5">More</span>
+              <span className="jobs-text01">Products</span>
+              <span className="jobs-text02">Pricing</span>
+              <span className="jobs-text03">Blog</span>
+              <span className="jobs-text04">Jobs</span>
+              <span className="jobs-text05">More</span>
             </div>
             <div className="jobs-bot">
               <div className="jobs-container01">
@@ -155,7 +155,7 @@ const Jobs = (props) => {
         <div className="jobs-main">
           <div className="jobs-blur-background"></div>
           <div className="jobs-hero">
-            <h1 className="jobs-text6">Open Positions</h1>
+            <h1 className="jobs-text06">Open Positions</h1>
             <img
               alt="image"
               src="https://images.unsplash.com/photo-1598738865218-7809c17181c3?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ3fHxvcGVuJTIwcG9zaWlvbnN8ZW58MHx8fHwxNjgwODMwODcx&amp;ixlib=rb-4.0.3&amp;q=80&amp;h=700"
@@ -169,13 +169,32 @@ const Jobs = (props) => {
           />
         </div>
         <div className="jobs-features">
-          <h1 className="jobs-text7">Join the team</h1>
+          <h1 className="jobs-text07">Join the team</h1>
           <div className="jobs-container06">
             <FeatureCard1
-              title="Check back again soon"
+              title="We are hiring interns."
               rootClassName="rootClassName2"
+              image_src="https://az505806.vo.msecnd.net/cms/093484ed-2d10-4697-82ae-b36d387eac65/32137517-0d4b-4e96-8094-bd1c31b31ba0-lg.jpg"
+            ></FeatureCard1>
+            <FeatureCard1
+              title="System Design"
+              rootClassName="rootClassName"
+              image_src="https://findthehomepros.com/wp-content/uploads/2020/10/AdobeStock_253373715-1-980x653.jpeg"
+            ></FeatureCard1>
+            <FeatureCard1
+              title="Challenging Robotics"
+              rootClassName="rootClassName1"
+              image_src="https://b2600043.smushcdn.com/2600043/wp-content/uploads/2019/07/Robot1_0.jpg?lossy=0&amp;strip=1&amp;webp=1"
+            ></FeatureCard1>
+            <FeatureCard1
+              title="Sensor Development"
+              rootClassName="rootClassName3"
+              image_src="https://images.ctfassets.net/95kuvdv8zn1v/2LGuWnOD3eHdIL1fyOLP3B/d124b41ce31ab694d10c3f1078d921c9/Origin_Sensors.jpg?fit=fill&amp;f=center&amp;fm=jpg"
             ></FeatureCard1>
           </div>
+          <h1 className="jobs-text08">
+            Please contact at careers@kshoonya.com
+          </h1>
         </div>
         <div className="jobs-container07">
           <div className="jobs-container08"></div>
@@ -246,7 +265,7 @@ const Jobs = (props) => {
             </div>
             <div className="jobs-divider"></div>
             <div className="jobs-container16">
-              <span className="jobs-text8 Body2">
+              <span className="jobs-text09 Body2">
                 © 2023 Kshoonya Inc. All rights reserved
               </span>
               <div className="jobs-container17">
@@ -469,38 +488,38 @@ const Jobs = (props) => {
           .jobs-text:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .jobs-text1 {
+          .jobs-text01 {
             transition: 0.3s;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .jobs-text1:hover {
+          .jobs-text01:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .jobs-text2 {
+          .jobs-text02 {
             transition: 0.3s;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .jobs-text2:hover {
+          .jobs-text02:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .jobs-text3 {
+          .jobs-text03 {
             transition: 0.3s;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .jobs-text3:hover {
+          .jobs-text03:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .jobs-text4 {
+          .jobs-text04 {
             transition: 0.3s;
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .jobs-text4:hover {
+          .jobs-text04:hover {
             color: var(--dl-color-turquoise-default);
           }
-          .jobs-text5 {
+          .jobs-text05 {
             transition: 0.3s;
           }
-          .jobs-text5:hover {
+          .jobs-text05:hover {
             color: var(--dl-color-turquoise-default);
           }
           .jobs-bot {
@@ -635,7 +654,7 @@ const Jobs = (props) => {
             justify-content: space-between;
           }
 
-          .jobs-text6 {
+          .jobs-text06 {
             font-size: 72px;
             align-self: center;
             margin-bottom: var(--dl-space-space-doubleunit);
@@ -664,7 +683,7 @@ const Jobs = (props) => {
             max-width: 1400px;
             flex-direction: column;
           }
-          .jobs-text7 {
+          .jobs-text07 {
             font-size: 3rem;
             margin-bottom: 48px;
           }
@@ -675,6 +694,10 @@ const Jobs = (props) => {
             grid-gap: 32px;
             align-items: flex-start;
             grid-template-columns: 1fr 1fr 1fr 1fr;
+          }
+          .jobs-text08 {
+            font-size: 1rem;
+            margin-bottom: 48px;
           }
           .jobs-container07 {
             flex: 0 0 auto;
@@ -863,7 +886,7 @@ const Jobs = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .jobs-text8 {
+          .jobs-text09 {
             color: var(--dl-color-gray-300);
             margin-top: var(--dl-space-space-unit);
           }
@@ -974,6 +997,9 @@ const Jobs = (props) => {
             .jobs-container06 {
               position: relative;
             }
+            .jobs-text08 {
+              font-size: 1rem;
+            }
           }
           @media (max-width: 1200px) {
             .jobs-image {
@@ -983,6 +1009,9 @@ const Jobs = (props) => {
             .jobs-link05 {
               font-weight: bold;
               text-decoration: none;
+            }
+            .jobs-text08 {
+              font-size: 1rem;
             }
           }
           @media (max-width: 991px) {
@@ -994,15 +1023,19 @@ const Jobs = (props) => {
               height: auto;
               flex-direction: column;
             }
-            .jobs-text6 {
+            .jobs-text06 {
               font-size: 25px;
               text-align: center;
             }
-            .jobs-text7 {
+            .jobs-text07 {
               align-self: center;
             }
             .jobs-container06 {
               grid-template-columns: 1fr 1fr;
+            }
+            .jobs-text08 {
+              font-size: 1rem;
+              align-self: center;
             }
             .jobs-container11 {
               display: none;
@@ -1022,13 +1055,16 @@ const Jobs = (props) => {
             .jobs-menu {
               display: none;
             }
-            .jobs-text6 {
+            .jobs-text06 {
               font-size: 50px;
               text-align: center;
             }
             .jobs-features {
               padding-left: 32px;
               padding-right: 32px;
+            }
+            .jobs-text08 {
+              font-size: 1rem;
             }
             .jobs-container15 {
               flex-wrap: wrap;
@@ -1037,7 +1073,7 @@ const Jobs = (props) => {
             .jobs-container16 {
               flex-direction: column;
             }
-            .jobs-text8 {
+            .jobs-text09 {
               margin-top: var(--dl-space-space-unit);
               margin-bottom: var(--dl-space-space-unit);
             }
@@ -1050,7 +1086,7 @@ const Jobs = (props) => {
             .jobs-bot {
               width: 100%;
             }
-            .jobs-text6 {
+            .jobs-text06 {
               font-size: 25px;
             }
             .jobs-features {
@@ -1061,6 +1097,9 @@ const Jobs = (props) => {
             }
             .jobs-container06 {
               grid-gap: var(--dl-space-space-halfunit);
+            }
+            .jobs-text08 {
+              font-size: 1rem;
             }
             .jobs-link11 {
               text-decoration: none;
