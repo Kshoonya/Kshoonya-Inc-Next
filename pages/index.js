@@ -198,8 +198,8 @@ const Home = (props) => {
               </Link>
             </div>
             <img
-              alt="A young fit man is walking outdoor. His background is blurred and there are trees in the distance behind him. The image is is taken from his left side at approximately 45 degrees angle.  HE has tanned skin, dark hair &amp; light growth of facial hair. He is midstride &amp; looking downwards. Wearing a half sleeved, round neck grey t-shirt and dark trousers of ankle length. Also wearing a watch on his right hand and light blue sport shoes while white wired earphones are plugged in his ears. Also wearing dark glasses with reddish frame."
-              src="/Pictures/First/_ca4a1961-f5eb-4cb5-a9a4-621c4ceda0f3-600h.jpeg"
+              alt="Vision band picture which is wore on legs/ankle"
+              src="/screen%20shot%202023-11-22%20at%2017.16.11-500w.png"
               loading="eager"
               className="home-image02"
             />
