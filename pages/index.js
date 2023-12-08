@@ -34,9 +34,9 @@ const Home = (props) => {
             <Link href="/">
               <a className="home-link">
                 <img
-                  alt="image"
+                  alt="Kshoonya Company Name"
                   src="/new_design_full%203-400w.png"
-                  loading="lazy"
+                  loading="eager"
                   className="home-image"
                 />
               </a>

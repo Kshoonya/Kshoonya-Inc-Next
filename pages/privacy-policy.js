@@ -27,8 +27,9 @@ const PrivacyPolicy = (props) => {
             <Link href="/">
               <a className="privacy-policy-link">
                 <img
-                  alt="image"
+                  alt="Kshoonya Company"
                   src="/new_design_full%203-200h.png"
+                  loading="eager"
                   className="privacy-policy-image"
                 />
               </a>

@@ -30,7 +30,7 @@ const AboutUs = (props) => {
             <Link href="/">
               <a className="about-us-link">
                 <img
-                  alt="image"
+                  alt="Kshoonya Company"
                   src="/new_design_full%203-400w.png"
                   className="about-us-image"
                 />

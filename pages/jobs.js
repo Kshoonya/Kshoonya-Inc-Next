@@ -29,7 +29,7 @@ const Jobs = (props) => {
             <Link href="/">
               <a className="jobs-link">
                 <img
-                  alt="image"
+                  alt="Kshoonya Company"
                   src="/new_design_full%203-400w.png"
                   className="jobs-image"
                 />
