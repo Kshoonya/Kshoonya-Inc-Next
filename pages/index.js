@@ -1101,6 +1101,7 @@ const Home = (props) => {
           }
           .home-text16 {
             z-index: 100;
+            font-size: 4em;
             max-width: 500px;
           }
           .home-container09 {
@@ -1117,6 +1118,9 @@ const Home = (props) => {
             position: relative;
             align-items: flex-start;
             flex-direction: column;
+          }
+          .home-text17 {
+            align-self: center;
           }
           .home-container11 {
             flex: 0 0 auto;
