@@ -211,7 +211,7 @@ const AboutUs = (props) => {
             <span className="about-us-text16">
               <span>Harshit, Ph.D.</span>
               <br></br>
-              <span>Founder/CEO</span>
+              <span>Founder/CTO</span>
               <br></br>
             </span>
             <span className="about-us-text21">
@@ -246,7 +246,7 @@ const AboutUs = (props) => {
             <span className="about-us-text26">
               <span>Sakshi</span>
               <br></br>
-              <span>Co-Founder</span>
+              <span>Co-Founder/CEO</span>
               <br></br>
             </span>
             <span className="about-us-text31">
@@ -352,7 +352,7 @@ const AboutUs = (props) => {
                 />
                 <div className="about-us-container11">
                   <BlogPostCard2
-                    label="Technology Advisor"
+                    label="Tech Advisor"
                     title="Ravi Sankar, Ph.D."
                     image_src="/right.svg"
                     description="Professor at University of South Florida"
@@ -369,12 +369,13 @@ const AboutUs = (props) => {
                 />
                 <div className="about-us-container13">
                   <BlogPostCard2
-                    label="Technology Advisor"
-                    title="Wilfrido Moreno, Ph.D."
+                    label="Advisor"
+                    title="Ed Henkler"
                     image_src="/quote-mark.svg"
-                    description="Professor at University of South Florida"
+                    description="Founder of The Blind Guide  and helping Vetrans"
                     profile_src="/right.svg"
-                    rootClassName="rootClassName3"
+                    rootClassName="rootClassName2"
+                    image_alt="Advisor Name"
                   ></BlogPostCard2>
                 </div>
               </div>
@@ -1106,9 +1107,6 @@ const AboutUs = (props) => {
             font-size: 1.15rem;
             margin-bottom: 32px;
           }
-          .about-us-text48 {
-            margin-bottom: 32px;
-          }
           .about-us-testimonial-card4 {
             width: 1398px;
             display: flex;
@@ -1199,7 +1197,7 @@ const AboutUs = (props) => {
           }
           .about-us-container10 {
             flex: 0 0 auto;
-            width: auto;
+            width: 723px;
             height: auto;
             display: flex;
             align-items: flex-start;
